@@ -1,0 +1,40 @@
+{
+    "name": "dnonov/background-remover",
+    "description": "Remove an image's background in laravel.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "dnonov\\background-remover\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dimitar Nonov",
+            "email": "d.nonov@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^6.46"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DNonov/BackgroundRemover"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dnonov\\BackgroundRemover\\Providers\\BackgroundRemoverServiceProvider"
+            ]
+        },
+        "aliases": {
+            "BackgroundRemover": "Dnonov\\BackgroundRemover\\Facades\\BackgroundRemover"
+        }
+    },
+    "require": { "DNonov/BackgroundRemover": "dev-main" }
+}
