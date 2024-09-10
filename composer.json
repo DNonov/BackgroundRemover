@@ -23,6 +23,11 @@
         }
     },
     "extra": {
+        "laravel": {
+            "providers": [
+                "Dnonov\\BackgroundRemover\\Providers\\BackgroundRemoverServiceProvider"
+            ]
+        },
         "aliases": {
             "BackgroundRemover": "Dnonov\\BackgroundRemover\\Facades\\BackgroundRemover"
         }
