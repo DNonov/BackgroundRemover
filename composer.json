@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "dnonov\\background-remover\\": "src/"
+            "Dnonov\\BackgroundRemover\\": "src/"
         }
     },
     "authors": [
